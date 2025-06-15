@@ -134,7 +134,7 @@ p {
     text-transform: uppercase;
     color: var(--primarycolor);
     background-color: var(--primarycolor);
-    -webkit-background-clip: text ;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
     white-space: nowrap;
@@ -180,7 +180,6 @@ p {
 .banner_buttons {
     display: flex;
     gap: 50px;
-    align-items: center;
 }
 
 .banner_buttons p {
@@ -300,13 +299,12 @@ p {
     left: 16px;
 }
 
-
 .animated-button:hover .text {
     transform: translateX(12px);
 }
 
 .animated-button:hover svg {
-    fill: #F7EAE3;
+    fill: #212121;
 }
 
 .animated-button:active {
@@ -318,12 +316,6 @@ p {
     width: 220px;
     height: 220px;
     opacity: 1;
-}
-
-.banner_buttons .btt{
-    width: 162px;
-    height: 58px;
-    padding-right: 51px;
 }
 
 
