@@ -134,7 +134,7 @@ p {
     text-transform: uppercase;
     color: var(--primarycolor);
     background-color: var(--primarycolor);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text ;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
     white-space: nowrap;
