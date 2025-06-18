@@ -42,7 +42,25 @@ p {
     --Ubuntu: "Ubuntu", sans-serif;
     --primarycolor: #42454A;
 }
+.common_head{
+    text-align: center;
+}
 
+.common_head h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+
+}
+.common_head p{
+    font-size: 20px;
+    font-family: 400;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+    margin-top: 34px;
+
+}
 /* --------------------COMMON CSS  ENDS-------------------------- */
 
 /* -------------------- NAVBAR-------START-------------------------- */
@@ -367,6 +385,9 @@ p {
     font-size: 40px;
 
 }
+.single1counter .smallx{
+    font-size: 40px;
+}
 .single1counter p{
     font-size: 13px;
     font-weight: 400;
@@ -375,22 +396,18 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -------------------- counter----part-------ENDS-------------------------- */
+/* Product Information */
+/* Product Information */
+
+/* High Efficiency Motor */
+/* High Efficiency Motor */
+
+/* multiple accessories start */
+#accessories{
+    padding-top: 292px;
+}
+
+
+
+/* multiple accessories end */
