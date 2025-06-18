@@ -180,10 +180,12 @@ p {
 .banner_buttons {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .banner_buttons p {
     width: 87px;
+    height: 75px;
     font-size: 18px;
     font-weight: 500;
     font-family: var(--Ubuntu);
@@ -196,7 +198,7 @@ p {
     position: relative;
 }
 
-.banner_buttons a img {
+.banner_buttons a .spin {
     animation: rotate 3s linear infinite;
 
 
@@ -304,7 +306,7 @@ p {
 }
 
 .animated-button:hover svg {
-    fill: #212121;
+    fill: #F7EAE3;
 }
 
 .animated-button:active {
@@ -318,7 +320,12 @@ p {
     opacity: 1;
 }
 
+.banner_buttons .btt {
+    width: 162px;
+    height: 58px;
+    padding-right: 51px;
 
+}
 
 
 
@@ -329,3 +336,61 @@ p {
 
 
 /* -------------------- Banner-------ENDS-------------------------- */
+/* -------------------- counter----part-------starts-------------------------- */
+#counter{
+    padding-top: 209px;
+}
+.counter_row{
+    display: flex;
+    justify-content: space-between;
+}
+.single1counter{
+    width: 174px;
+    height: 137px;
+    border-radius: 7px;
+    border: 1px solid #F4F4F4;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05)
+     0px 4px 6px -2px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 18px;
+}
+.single1counter h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+}
+.single1counter span{
+    font-size: 40px;
+
+}
+.single1counter p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- counter----part-------ENDS-------------------------- */
