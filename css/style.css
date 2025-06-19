@@ -406,6 +406,7 @@ p {
 /* multiple accessories start */
 #accessories{
     padding-top: 292px;
+    position: relative;
 }
 .accessories_row{   
     margin-top: 112px;
@@ -440,8 +441,26 @@ p {
 }
 .shopingImage{
     width: 799px;
-    
+    position: absolute;
+    bottom: 225px;
+}
 
+.more{
+    max-width: 570px;
+    height: 94px;
+    border: 2px solid var(--primarycolor);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 74px auto 0;
 
+}
+.shippingRow{
+    margin-top: 131px;
 }
 /* multiple accessories end */
