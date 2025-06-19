@@ -397,11 +397,40 @@ p {
 
 
 /* -------------------- counter----part-------ENDS-------------------------- */
-/* Product Information */
-/* Product Information */
+/* Product Information start*/
+#product_info{
+    margin-top: 127px;
+}
+.product{
 
-/* High Efficiency Motor */
-/* High Efficiency Motor */
+}
+.product_image img{
+    width: 748px;
+    padding-top: 22px;
+    
+}
+.light_items{
+    padding-top: 143px;
+}
+
+
+
+
+/* Product Information end*/
+
+/* High Efficiency Motor start */
+#motor{
+    margin-top: 143px;
+    
+}.tire_img{
+    width: 1335px;
+    margin-top: 56px;
+}
+
+
+
+
+/* High Efficiency Motor end */
 
 /* multiple accessories start */
 #accessories{
@@ -464,3 +493,56 @@ p {
     margin-top: 131px;
 }
 /* multiple accessories end */
+/* gallery start */
+#gallery{
+    margin-top: 127px;
+}
+.scooter_buttons a{
+    max-width: 570px;
+    height: 94px;
+    border: 2px solid var(--primarycolor);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px auto 0;
+}
+.scooter_buttons a:nth-child(1){
+    margin-top: 55px;
+}
+.scooter_image{
+    margin-top: 302px;
+    margin-right: 74px;
+}
+.scooterImagespart2{
+    margin-top: 112px;
+
+}
+.scooter_buttons{
+    margin-top: 55px;
+    margin-right: 137px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* gallery end */
