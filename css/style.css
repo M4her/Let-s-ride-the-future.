@@ -407,7 +407,41 @@ p {
 #accessories{
     padding-top: 292px;
 }
+.accessories_row{   
+    margin-top: 112px;
+}
+
+.accessories_text h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+    margin-top: 48px;
+    
+}
+.single1items{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 33px;
+}
+.single1items .single1Icon{
+    width: 49px;
+}
+.single1items p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    color: var(--primarycolor);
+}
+.shoping{
+    display: flex;
+    justify-content: end;
+}
+.shopingImage{
+    width: 799px;
+    
 
 
-
+}
 /* multiple accessories end */
